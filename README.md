@@ -9,7 +9,6 @@
 > **论文出处**：*Establishing an in vitro pipeline for the high-throughput quantification of epithelial permeability of gut bacterial metabolites* (*bioRxiv*, 2025-06, DOI: [`10.1101/2025.06.10.658935`](https://doi.org/10.1101/2025.06.10.658935))  
 > **原作者仓库**：[ZimmermannLab/transwell_2026](https://github.com/ZimmermannLab/transwell_2026)  
 > **公开输入数据**：[Zenodo Record 22044327](https://zenodo.org/records/22044327)（26 个文件，共 `195.4 MB`）  
-> **技术复盘与面试沉淀**：[docs/transwell_2026_项目复盘与STAR话术.md](./docs/transwell_2026_项目复盘与STAR话术.md)
 
 ---
 
@@ -52,7 +51,7 @@ reproduction/metabolomics/transwell_2026/
 │   └── 05_fig4_api_baso_eic_and_stats.R        # Phase 2 / Fig 4: DMSO 双室非靶向检验 + MassBank 注释 + 双室 EIC
 ├── repro_results/                              # 10 张核心高分辨复现图、TSV 汇总表与 environment_versions.tsv
 ├── upstream_transwell_2026/                    # 原作者 GitHub 仓库浅克隆对照（含 15 个原始脚本，.gitignore 屏蔽）
-├── docs/                                       # 技术复盘与 STAR 面试问答
+├── docs/                                       # 本地扩展技术笔记（私人资料已由 .gitignore 排除）
 └── logs/                                       # sessionInfo() 快照与运行记录
 ```
 

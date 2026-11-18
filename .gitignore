@@ -56,12 +56,6 @@ EIC_output/
 logs/*.log
 **/logs/*.log
 
-# Private interview, STAR & resume scripts in docs/
-docs/*[Ii][Nn][Tt][Ee][Rr][Vv][Ii][Ee][Ww]*.md
-docs/*话术*.md
-docs/*面试*.md
-docs/*简历*.md
-
 # Allow reproduction results for portfolio showcase
 !repro_results/**/*.png
 !repro_results/*.png
@@ -73,3 +67,13 @@ docs/*简历*.md
 !repro_results/*.csv
 !repro_results/**/*.md
 !repro_results/*.md
+
+# Private interview, defense, showcase & resume notes in any subfolder
+# Placed at the bottom after !repro_results/**/*.md so these rules always win
+*/**/*[Ii][Nn][Tt][Ee][Rr][Vv][Ii][Ee][Ww]*.md
+*/**/*面试*.md
+*/**/*答辩*.md
+*/**/*项目复盘*.md
+*/**/*简历*.md
+*/**/*话术*.md
+*/**/*[Ss][Hh][Oo][Ww][Cc][Aa][Ss][Ee]*.md
