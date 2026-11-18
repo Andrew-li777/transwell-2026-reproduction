@@ -1,0 +1,75 @@
+# R & RStudio internal
+.Rproj.user
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+**/__MACOSX/
+
+# Python environments & caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Upstream reference clones (keep local)
+upstream_*/
+**/upstream_*/
+
+# Raw Zenodo inputs & processed intermediate datasets (reproducible via run_all.R)
+*.mzML
+*.mzXML
+*.mzML.gz
+*.raw
+*.imzML
+*.ibd
+*.mgf
+*.msp
+*.cdf
+*.zip
+*.tar.gz
+*.h5ad
+*.h5seurat
+*.mtx.gz
+data/raw/**
+!data/raw/.gitkeep
+!data/raw/README.md
+input_folder/**
+!input_folder/.gitkeep
+!input_folder/README.md
+data/processed/**
+!data/processed/.gitkeep
+!data/processed/README.md
+Plot/
+Plots/
+Env/
+output/
+EIC_output/
+
+# General media and temporary outputs
+*.pdf
+*.jpg
+*.rds
+*.RDS
+logs/*.log
+**/logs/*.log
+
+# Private interview, STAR & resume scripts in docs/
+docs/*[Ii][Nn][Tt][Ee][Rr][Vv][Ii][Ee][Ww]*.md
+docs/*话术*.md
+docs/*面试*.md
+docs/*简历*.md
+
+# Allow reproduction results for portfolio showcase
+!repro_results/**/*.png
+!repro_results/*.png
+!repro_results/**/*.tsv
+!repro_results/*.tsv
+!repro_results/**/*.txt
+!repro_results/*.txt
+!repro_results/**/*.csv
+!repro_results/*.csv
+!repro_results/**/*.md
+!repro_results/*.md
